@@ -1,13 +1,10 @@
 <?php
 
 /**
-
  * blankspace Theme Customizer
-
  *
-
  * @package blankspace
-
+ * @since blankspace 1.0
  */
 function blankspace_customize_register( $wp_customize ) {
 
