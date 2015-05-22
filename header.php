@@ -2,7 +2,9 @@
 /**
  * The template for displaying the header
  *
- */
+ * @package blankspace
+ * @since blankspace 1.0
+*/
 ?><!DOCTYPE html>
 <html>
     <head>

@@ -1,4 +1,12 @@
-<?php get_header(); ?>
+<?php
+/**
+ * Displays the homepage with a header image and blog archieve.
+ *
+ * @package blankspace
+ * @since blankspace 1.0
+ */
+
+get_header(); ?>
 
 
 		<div id="home-header">

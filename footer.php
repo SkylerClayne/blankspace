@@ -2,6 +2,9 @@
 /**
  * The template for displaying the footer
  *
+ * @package blankspace
+ * @since blankspace 1.0
+ *
  */
 ?>
 

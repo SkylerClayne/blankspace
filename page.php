@@ -1,8 +1,10 @@
 <?php
 
 /*
-* Template Name:    Default page template
-* Description:  
+* Default page template.
+* 
+* @package blankspace
+* @since blankspace 1.0
 */
 
  get_header(); ?>

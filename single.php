@@ -1,9 +1,10 @@
 <?php
 
 /*
-*
-*
 * Displays a single post.
+*
+* @package blankspace
+* @since blankspace 1.0
 */
 
 ?>

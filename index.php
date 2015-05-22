@@ -1,4 +1,13 @@
-<?php get_header(); ?>
+<?php 
+
+/**
+*	This is the main template file, doesn't take center stage but is a fallback.
+*
+* @package blankspace
+* @since blankspace 1.0
+*/
+
+get_header(); ?>
 
 
 		<div id="home-header">
