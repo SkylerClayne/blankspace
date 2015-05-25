@@ -2,7 +2,7 @@
 
 #About blankspace WordPress Theme#
 
-
+My first public theme developed from the ground up by yours truly. Resposive design to allow for your content to be displayed on screens of all size.
 
 For questions, comments or bug reports, submit via github or email me skylerclayne@gmail.com
 
@@ -25,7 +25,7 @@ Alternatively you can download and install the archive file, or unzip it and mov
 
 #Documentation#
 
-Theme documentation [is available here](http://colorlib.com/wp/support/dazzling)
+Theme documentation [is available here]()
 
 #Copyright notice#
 
@@ -35,7 +35,6 @@ Theme documentation [is available here](http://colorlib.com/wp/support/dazzling)
 
 Dazzling theme uses:
 
-* [FontAwesome](http://fontawesome.io) licensed under the SIL OFL 1.1 (http://scripts.sil.org/OFL)
 * [Bootstrap](http://getbootstrap.com/) licensed under [MIT license](https://github.com/twbs/bootstrap/blob/master/LICENSE)
 * [WP-Bootstrap-NavWalker](https://github.com/twittem/wp-bootstrap-navwalker) licensed under the GPLv2 license
 
