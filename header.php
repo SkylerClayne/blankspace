@@ -15,7 +15,7 @@
 <?php wp_head(); ?>
 
    </head>
-    <body>
+    <body <?php body_class(); ?>>
         <div id="site-header" class="cleafix">     
 
 
@@ -28,7 +28,7 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-               <a href="<?php bloginfo('url'); ?>" class="navbar-brand">
+               <a href="<?php echo esc_url( home_url() ); ?>" class="navbar-brand">
                  <?php
 
                             $blankspace_logo = get_theme_mod('blankspace_logo');

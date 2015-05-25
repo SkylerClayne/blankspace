@@ -60,7 +60,7 @@ function themename_setup() {
     /**
      * Enable support for the Post Formats aside, gallery, quote and video
      */
-    add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'video' ) );
+   // add_theme_support( 'post-formats', array ( 'aside', 'gallery', 'quote', 'video' ) );
 
         /* woocommerce support */
         add_theme_support( 'woocommerce' );
@@ -94,7 +94,7 @@ function themename_register_custom_background() {
         if ( version_compare( $wp_version, '3.4', '>=' ) ) {
                 add_theme_support( 'custom-background', $args );
         } else {
-                add_custom_background();
+            //    add_custom_background();
         }
 }
     add_action( 'after_setup_theme', 'themename_register_custom_background' );
@@ -126,7 +126,8 @@ function themename_custom_header_setup() {
                 define( 'HEADER_IMAGE',        $args['default-image'] );
                 define( 'HEADER_IMAGE_WIDTH',  $args['width'] );
                 define( 'HEADER_IMAGE_HEIGHT', $args['height'] );
-                add_custom_image_header( $wp_head_callback, $admin_head_callback );
+               // add_theme_support( 'custom-header', $args );
+               // add_custom_image_header( $wp_head_callback, $admin_head_callback );
         }
 }
 add_action( 'after_setup_theme', 'themename_custom_header_setup' );
