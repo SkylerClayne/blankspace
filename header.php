@@ -10,7 +10,7 @@
     <head>
 
         <meta charset="<?php bloginfo( 'charset' ); ?>">
-        <title><?php  bloginfo( 'name' );  wp_title( '|', true, 'left' ); ?></title>
+        <title><?php wp_title( '', true, 'left' ); ?></title>
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 <?php wp_head(); ?>
 

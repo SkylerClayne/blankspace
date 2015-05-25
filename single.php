@@ -51,7 +51,9 @@
 				        wp_link_pages( $defaults );
 
 				?>
+				<p><?php the_tags(); ?></p>
 
+			<?php the_posts_pagination(); ?>
 
       			<div class="post-nav">
 	      			<div class="next-post">
@@ -64,7 +66,7 @@
 
       			<div class="clear"></div>
 
-			      			
+
 				<?php wp_list_comments( ); ?>
 				<?php comments_template(); ?> 
 

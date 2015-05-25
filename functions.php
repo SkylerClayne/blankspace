@@ -135,7 +135,7 @@ add_action( 'after_setup_theme', 'themename_custom_header_setup' );
 /**
  * Register widgetized area and update sidebar with default widgets
  * We will be setting up two widgetized sidebars here
- */
+
 function themename_widgets_init() {
     register_sidebar( array(
         'name'          => __( 'Primary Sidebar', 'theme_name' ),
@@ -156,6 +156,7 @@ function themename_widgets_init() {
     ) );
 }
 add_action( 'widgets_init', 'themename_widgets_init' );
+ */
  
 /**
  * Add a custom stylesheet for the TinyMCE editor
