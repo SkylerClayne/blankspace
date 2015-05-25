@@ -6,7 +6,7 @@
  * @since blankspace 1.0
 */
 ?><!DOCTYPE html>
-<html>
+<html <?php language_attributes(); ?>>
     <head>
 
         <meta charset="<?php bloginfo( 'charset' ); ?>">
