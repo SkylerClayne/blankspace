@@ -8,7 +8,7 @@ For questions, comments or bug reports, submit via github or email me skylerclay
 
 #Installation#
 
-You can install the theme through the WordPress installer under "Themes" > "Install themes" by searching for "blankspace".
+Once WordPress.org releases it, You can install the theme through the WordPress installer under "Themes" > "Install themes" by searching for "blankspace".
 
 Alternatively you can download and install the archive file, or unzip it and move the unzipped contents to the "wp-content/themes" folder of your WordPress installation. You will then be able to activate the theme.
 
