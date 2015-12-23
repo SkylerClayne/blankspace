@@ -1,4 +1,4 @@
-![blankspace WordPress Theme](http://www.meetsky.me/wp-content/uploads/2015/05/blankspace-shot.png "blankspace Theme Screenshot")
+![blankspace WordPress Theme](screenshot.png "blankspace Theme Screenshot")
 
 #About blankspace WordPress Theme#
 
